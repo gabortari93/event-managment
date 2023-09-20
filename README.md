@@ -36,7 +36,7 @@ To set up the development environment, follow these steps:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/gabortari93/EventManagment.git
+   git clone https://github.com/gabortari93/event-managment.git
    ```
 
 2. **Navigate to the project directory**
