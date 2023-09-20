@@ -17,11 +17,34 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background: whitesmoke;
+}
+
+/* Additional styles */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.popup-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+  padding: 16px;
+  border-radius: 8px;
+  opacity: 0;
+  z-index: 9999;
+}
+
+.popup-animation.fade-in,
+.popup-animation.fade-out {
+  transition: opacity 1s ease-in-out;
+}
+
+.popup-animation.show {
+  opacity: 1;
 }
