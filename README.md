@@ -87,7 +87,7 @@ To create a new event:
 To view the list of events:
 
 1. Navigate to `http://localhost:3000/` and click on the "Show Event List" button.
-2. Here you can view, update, or delete events.
+2. Here you can view events.
 
 ## License
 
